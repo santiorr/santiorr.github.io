@@ -1,0 +1,38 @@
+* {
+        margin: 0;
+        padding: 0;
+      }
+      #wrapper {
+        width: 70%;
+        margin: 10px;
+      }
+      #cart_content {
+        margin-top: 10px;
+        padding: 5px;
+        border: none;
+      }
+      .item_box {
+        border: 1px solid #999;
+        margin-bottom: 10px;
+        padding: 5px;
+      }
+      .shopping_list {
+        width: 100%;
+        margin-top: 10px;
+        border-collapse: collapse;
+      }
+      .shopping_list td,
+      .shopping_list th {
+        padding: 10px;
+		  border: 1px solid #999;
+      }
+
+      button {
+		  margin-top: 10px;
+		  background-color: #B9917D;
+		  color: #fff;
+      }
+		.table-striped>tbody>tr:nth-child(odd)>td, 
+		.table-striped>tbody>tr:nth-child(odd)>th {
+   		background-color: #F5F2F0; // Choose your own color here
+ 		}
